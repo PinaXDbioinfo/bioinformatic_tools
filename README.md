@@ -1,2 +1,2 @@
 # bioinformatic_tools
-Here you can find some bioinformatic tools that I code using new code or joining different programs for bioinformatics analysis.
+A collection of bioinformatics tools I’ve built — from original scripts to pipelines integrating multiple programs — for diverse bioinformatics analyses.
