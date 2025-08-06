@@ -11,6 +11,7 @@ To run the script you only need two files:
    - The quantitative trait values in the second column.
    - No column names (headerless file).
 
+You can find example files for try it use the code c:
 ---
 
 ## Example Image
