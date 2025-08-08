@@ -19,8 +19,7 @@ To run the script you only need two files:
    - The quantitative trait values in the second column.
    - No column names (headerless file).
 
-You can find example files f
----
+You can find example files in the directory example data
 
 ## Requirements
 - R (>= 4.0)
