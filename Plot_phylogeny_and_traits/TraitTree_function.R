@@ -1,4 +1,4 @@
-plot_phylo_trait<-function(nexus_file,txt_file){
+TraitTree<-function(nexus_file,txt_file){
 
 #necesary libraries
 library(ape)
