@@ -1,4 +1,4 @@
-# Visualization of a Phylogenetic Tree with Quantitative Trait Values
+# TraitTree. Visualization of a Phylogenetic Tree with Quantitative Trait Values
 
 ## Description
 This tool generates an image of a phylogenetic tree and, next to each taxon, displays the value of a quantitative trait.  
@@ -31,14 +31,14 @@ You can find example files for try it use the code c:
 
 ### **From the terminal**
 
-Rscript Plot_phylogeny_and_traits_(terminal).R tree.nex data.txt
+Rscript TraitTree_script.R tree.nex data.txt
 
 tree.nex → Phylogenetic tree in Nexus format.
 data.txt → Tab-delimited file with numeric trait values for each species.
 
 ### **From R**
 
-You can also run the code in Plot_phylogeny_and_traits_Rfunction.R directly within your R session.
+You can also run the code in TraitTree_function.R directly within your R session.
 Before using the function, load your data:
 
 library(ape)
@@ -48,6 +48,6 @@ data <- read.csv("data.txt", sep = "\t", header = FALSE)
 
 Then call the function:
 
-plot_phylo_trait(tree, data)
+TraitTree(tree, data)
 
 Author: José Emilio Ramírez Piña
