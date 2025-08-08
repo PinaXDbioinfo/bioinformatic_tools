@@ -17,14 +17,11 @@ Enabling customized node tracking or trait aggregation at internal nodes.
 Teaching or visualizing evolutionary relationships with labeled nodes.
 Write the taggs for analyses in BayesTraits
 
-Example files are available in the example_data directory.
-To run the example, move the tree.nex file into the data directory as follows:
-
-mv example_data/tree.nex data/tree.nex
+Example file are available in the data directory
 
 bin/ → Contains the scripts needed to run PhyloTags.
 data/ → Place your input tree file here.
-Results/ → All generated output files will be saved here.
+Results/ → All generated output files will be saved here(this directory will be generated after run the script)
 
 ---
 
