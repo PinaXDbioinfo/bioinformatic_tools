@@ -2,6 +2,7 @@
 
 tree=$1
 
+mkdir ../Results
 mkdir ../Results/Descendants
 
 chmod +x PhyloTags.R
