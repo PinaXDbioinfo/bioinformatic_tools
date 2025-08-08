@@ -32,7 +32,7 @@ Results/ → All generated output files will be saved here.
 ![Example](example_plot.png)
 
 #example of a .txt file that containt the descendants of Node 13
-![Example](Node13.txt)
+[`Node13.txt`]
 
 ---
 
