@@ -1,0 +1,363 @@
+#NEXUS
+[written Thu Aug 07 22:48:36 CST 2025 by Mesquite  version 3.81 (build 955) at MacBook-Air-de-Ramirez.local/127.0.0.1]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=151;
+	TAXLABELS
+		Aquifex_aeolicus Petrotoga_mobilis Deinococcus_radiodurans Bifidobacterium_longum Leifsonia_xyli Corynebacterium_glutamicum Mycobacterium_avium Mycobacterium_bovis Mycobacterium_tuberculosis_2 Mycobacterium_tuberculosis_1 Mycobacterium_leprae Nocardia_farcinica Propionibacterium_acnes Streptomyces_coelicolor Chloroflexus_aurantiacus Herpetosiphon_aurantiacus Dehalococcoides_ethenogenes Staphylococcus_aureus Staphylococcus_epidermidis Enterococcus_faecalis Lactococcus_lactis Streptococcus_agalactiae Streptococcus_pyogenes Streptococcus_mutans Streptococcus_pneumoniae Lactobacillus_acidophilus Lactobacillus_johnsonii Oenococcus_oeni Lactobacillus_plantarum Listeria_innocua Listeria_monocytogenes Clostridium_acetobutylicum Clostridium_tetani Clostridium_perfringens Fusobacterium_nucleatum Mycoplasma_capricolum Mycoplasma_mycoides Mycoplasma_gallisepticum Mycoplasma_genitalium Mycoplasma_pneumoniae Mycoplasma_hyopneumoniae Mycoplasma_pulmonis Mycoplasma_mobile Carboxydothermus_hydrogenoformans Moorella_thermoacetica Desulfotomaculum_reducens Symbiobacterium_thermophilum Acidovorax_avenae Delftia_acidovorans Burkholderia_mallei Burkholderia_pseudomallei Bordetella_pertussis Nitrosomonas_europaea Chromobacterium_violaceum Neisseria_gonorrhoeae Neisseria_meningitidis Methylobacillus_flagellatus Acinetobacter_ADP1 Pseudomonas_aeruginosa Pseudomonas_putida Actinobacillus_pleuropneumoniae Haemophilus_influenzae Pasteurella_multocida Mannheimia_succiniciproducens Haemophilus_ducreyi Buchnera_aphidicola_1 Buchnera_aphidicola_2 Candidatus_Blochmannia Enterobacter_sakazakii Escherichia_coli Erwinia_carotovora Aeromonas_hydrophila Photobacterium_profundum Psychromonas_ingrahamii Colwellia_psychrerythraea Alcanivorax_borkumensis Coxiella_burnetii Francisella_tularensis Legionella_pneumophila Methylococcus_capsulatus Agrobacterium_tumefaciens Bartonella_henselae Bartonella_quintana Brucella_abortus Brucella_melitensis Brucella_suis Mesorhizobium_loti Dinoroseobacter_shibae Paracoccus_denitrificans Anaplasma_marginale Anaplasma_phagocytophilum Ehrlichia_canis Ehrlichia_chaffeensis Candidatus_Pelagibacter Sphingopyxis_alaskensis Bradyrhizobium_japonicum Nitrobacter_winogradskyi Methylobacterium_extorquens Caulobacter_crescentus Gluconobacter_oxydans Anaeromyxobacter_dehalogenans Myxococcus_xanthus Sorangium_cellulosum Desulfotalea_psychrophila Syntrophobacter_fumaroxidans Geobacter_sulfurreducens Bdellovibrio_bacteriovorus Syntrophus_aciditrophicus Campylobacter_jejuni Helicobacter_hepaticus Helicobacter_pylori Desulfovibrio_vulgaris Borrelia_burgdorferi Borrelia_garinii Leptospira_interrogans Chlamydia_pneumonia Chlamydia_trachomatis Chlamydophila_abortus Chlamydophila_caviae Parachlamydia_sp Porphyromonas_gingivalis Gramella_forsetii Chlorobium_tepidum Gloeobacter_violaceus Prochlorococcus_marinus Synechococcus_sp Synechococcus_elongatus Acaryochloris_marina Anabaena_variabilis Nostoc_sp Synechocystis_sp Aeropyrum_pernix Hyperthermus_butylicus Ignicoccus_hospitalis Staphylothermus_marinus Sulfolobus_acidocaldarius Sulfolobus_tokodaii Caldivirga_maquilingensis Pyrobaculum_aerophilum Pyrobaculum_arsenaticum Methanococcus_jannaschii Picrophilus_torridus Pyrococcus_abyssi Haloarcula_marismortui Haloquadratum_walsbyi Halobacterium_sp Methanococcoides_burtonii Methanosarcina_barkeri Methanobacterium_thermoautotrophicum Methanopyrus_kandleri Nanoarchaeum_equitans 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title Imported_trees;
+	ID 0198880226be1;
+	LINK Taxa = Taxa;
+	TRANSLATE
+[0] 		1 Aquifex_aeolicus,
+[1] 		2 Petrotoga_mobilis,
+[2] 		3 Deinococcus_radiodurans,
+[3] 		4 Bifidobacterium_longum,
+[4] 		5 Leifsonia_xyli,
+[5] 		6 Corynebacterium_glutamicum,
+[6] 		7 Mycobacterium_avium,
+[7] 		8 Mycobacterium_bovis,
+[8] 		9 Mycobacterium_tuberculosis_2,
+[9] 		10 Mycobacterium_tuberculosis_1,
+[10] 		11 Mycobacterium_leprae,
+[11] 		12 Nocardia_farcinica,
+[12] 		13 Propionibacterium_acnes,
+[13] 		14 Streptomyces_coelicolor,
+[14] 		15 Chloroflexus_aurantiacus,
+[15] 		16 Herpetosiphon_aurantiacus,
+[16] 		17 Dehalococcoides_ethenogenes,
+[17] 		18 Staphylococcus_aureus,
+[18] 		19 Staphylococcus_epidermidis,
+[19] 		20 Enterococcus_faecalis,
+[20] 		21 Lactococcus_lactis,
+[21] 		22 Streptococcus_agalactiae,
+[22] 		23 Streptococcus_pyogenes,
+[23] 		24 Streptococcus_mutans,
+[24] 		25 Streptococcus_pneumoniae,
+[25] 		26 Lactobacillus_acidophilus,
+[26] 		27 Lactobacillus_johnsonii,
+[27] 		28 Oenococcus_oeni,
+[28] 		29 Lactobacillus_plantarum,
+[29] 		30 Listeria_innocua,
+[30] 		31 Listeria_monocytogenes,
+[31] 		32 Clostridium_acetobutylicum,
+[32] 		33 Clostridium_tetani,
+[33] 		34 Clostridium_perfringens,
+[34] 		35 Fusobacterium_nucleatum,
+[35] 		36 Mycoplasma_capricolum,
+[36] 		37 Mycoplasma_mycoides,
+[37] 		38 Mycoplasma_gallisepticum,
+[38] 		39 Mycoplasma_genitalium,
+[39] 		40 Mycoplasma_pneumoniae,
+[40] 		41 Mycoplasma_hyopneumoniae,
+[41] 		42 Mycoplasma_pulmonis,
+[42] 		43 Mycoplasma_mobile,
+[43] 		44 Carboxydothermus_hydrogenoformans,
+[44] 		45 Moorella_thermoacetica,
+[45] 		46 Desulfotomaculum_reducens,
+[46] 		47 Symbiobacterium_thermophilum,
+[47] 		48 Acidovorax_avenae,
+[48] 		49 Delftia_acidovorans,
+[49] 		50 Burkholderia_mallei,
+[50] 		51 Burkholderia_pseudomallei,
+[51] 		52 Bordetella_pertussis,
+[52] 		53 Nitrosomonas_europaea,
+[53] 		54 Chromobacterium_violaceum,
+[54] 		55 Neisseria_gonorrhoeae,
+[55] 		56 Neisseria_meningitidis,
+[56] 		57 Methylobacillus_flagellatus,
+[57] 		58 Acinetobacter_ADP1,
+[58] 		59 Pseudomonas_aeruginosa,
+[59] 		60 Pseudomonas_putida,
+[60] 		61 Actinobacillus_pleuropneumoniae,
+[61] 		62 Haemophilus_influenzae,
+[62] 		63 Pasteurella_multocida,
+[63] 		64 Mannheimia_succiniciproducens,
+[64] 		65 Haemophilus_ducreyi,
+[65] 		66 Buchnera_aphidicola_1,
+[66] 		67 Buchnera_aphidicola_2,
+[67] 		68 Candidatus_Blochmannia,
+[68] 		69 Enterobacter_sakazakii,
+[69] 		70 Escherichia_coli,
+[70] 		71 Erwinia_carotovora,
+[71] 		72 Aeromonas_hydrophila,
+[72] 		73 Photobacterium_profundum,
+[73] 		74 Psychromonas_ingrahamii,
+[74] 		75 Colwellia_psychrerythraea,
+[75] 		76 Alcanivorax_borkumensis,
+[76] 		77 Coxiella_burnetii,
+[77] 		78 Francisella_tularensis,
+[78] 		79 Legionella_pneumophila,
+[79] 		80 Methylococcus_capsulatus,
+[80] 		81 Agrobacterium_tumefaciens,
+[81] 		82 Bartonella_henselae,
+[82] 		83 Bartonella_quintana,
+[83] 		84 Brucella_abortus,
+[84] 		85 Brucella_melitensis,
+[85] 		86 Brucella_suis,
+[86] 		87 Mesorhizobium_loti,
+[87] 		88 Dinoroseobacter_shibae,
+[88] 		89 Paracoccus_denitrificans,
+[89] 		90 Anaplasma_marginale,
+[90] 		91 Anaplasma_phagocytophilum,
+[91] 		92 Ehrlichia_canis,
+[92] 		93 Ehrlichia_chaffeensis,
+[93] 		94 Candidatus_Pelagibacter,
+[94] 		95 Sphingopyxis_alaskensis,
+[95] 		96 Bradyrhizobium_japonicum,
+[96] 		97 Nitrobacter_winogradskyi,
+[97] 		98 Methylobacterium_extorquens,
+[98] 		99 Caulobacter_crescentus,
+[99] 		100 Gluconobacter_oxydans,
+[100] 		101 Anaeromyxobacter_dehalogenans,
+[101] 		102 Myxococcus_xanthus,
+[102] 		103 Sorangium_cellulosum,
+[103] 		104 Desulfotalea_psychrophila,
+[104] 		105 Syntrophobacter_fumaroxidans,
+[105] 		106 Geobacter_sulfurreducens,
+[106] 		107 Bdellovibrio_bacteriovorus,
+[107] 		108 Syntrophus_aciditrophicus,
+[108] 		109 Campylobacter_jejuni,
+[109] 		110 Helicobacter_hepaticus,
+[110] 		111 Helicobacter_pylori,
+[111] 		112 Desulfovibrio_vulgaris,
+[112] 		113 Borrelia_burgdorferi,
+[113] 		114 Borrelia_garinii,
+[114] 		115 Leptospira_interrogans,
+[115] 		116 Chlamydia_pneumonia,
+[116] 		117 Chlamydia_trachomatis,
+[117] 		118 Chlamydophila_abortus,
+[118] 		119 Chlamydophila_caviae,
+[119] 		120 Parachlamydia_sp,
+[120] 		121 Porphyromonas_gingivalis,
+[121] 		122 Gramella_forsetii,
+[122] 		123 Chlorobium_tepidum,
+[123] 		124 Gloeobacter_violaceus,
+[124] 		125 Prochlorococcus_marinus,
+[125] 		126 Synechococcus_sp,
+[126] 		127 Synechococcus_elongatus,
+[127] 		128 Acaryochloris_marina,
+[128] 		129 Anabaena_variabilis,
+[129] 		130 Nostoc_sp,
+[130] 		131 Synechocystis_sp,
+[131] 		132 Aeropyrum_pernix,
+[132] 		133 Hyperthermus_butylicus,
+[133] 		134 Ignicoccus_hospitalis,
+[134] 		135 Staphylothermus_marinus,
+[135] 		136 Sulfolobus_acidocaldarius,
+[136] 		137 Sulfolobus_tokodaii,
+[137] 		138 Caldivirga_maquilingensis,
+[138] 		139 Pyrobaculum_aerophilum,
+[139] 		140 Pyrobaculum_arsenaticum,
+[140] 		141 Methanococcus_jannaschii,
+[141] 		142 Picrophilus_torridus,
+[142] 		143 Pyrococcus_abyssi,
+[143] 		144 Haloarcula_marismortui,
+[144] 		145 Haloquadratum_walsbyi,
+[145] 		146 Halobacterium_sp,
+[146] 		147 Methanococcoides_burtonii,
+[147] 		148 Methanosarcina_barkeri,
+[148] 		149 Methanobacterium_thermoautotrophicum,
+[149] 		150 Methanopyrus_kandleri,
+[150] 		151 Nanoarchaeum_equitans;
+	TREE Imported_tree_1 = ((1:0.240726,(2:0.516479,(3:0.37255,(((((4:0.222831,5:0.069232):0.044765,(((6:0.085349,(7:0.009395,(((8:0.000002,9:0.000002):0.000002,10:0.000772):0.007666,11:0.014892):0.003785):0.05059):0.020327,12:0.049399):0.025806,13:0.138807):0.031686):0.015942,14:0.052808):0.164024,((15:0.226507,16:0.185902):0.178606,17:0.295123):0.082153):0.0173,(((((18:0.008753,19:0.007814):0.073286,(((20:0.03963,(21:0.094246,((22:0.020348,23:0.023767):0.011412,(24:0.08082,25:0.025397):0.022261):0.0328):0.080708):0.015402,(((26:0.080719,27:0.03605):0.042574,28:0.257585):0.028402,29:0.069631):0.052247):0.035933,(30:0.000929,31:0.003599):0.046442):0.023697):0.137324,(((32:0.070609,33:0.055435):0.027582,34:0.050256):0.118621,(35:0.32068,(((36:0.001733,37:0.00221):0.098247,(38:0.053609,(39:0.01209,40:0.009735):0.085384):0.272944):0.042661,((41:0.139946,42:0.097235):0.032844,43:0.06792):0.180343):0.081112):0.046679):0.071084):0.041534,(((44:0.172378,45:0.059302):0.061553,46:0.193596):0.014294,47:0.172513):0.016118):0.034512,((((((((((((48:0.047036,49:0.024429):0.080404,(50:0.000792,51:0.000002):0.059181):0.007935,52:0.074568):0.008201,53:0.139189):0.022305,(54:0.05618,(55:0.013375,56:0.003911):0.086036):0.040308):0.014215,57:0.062034):0.125574,((((58:0.150156,(59:0.043653,60:0.006488):0.069014):0.016354,((((((((61:0.032915,((62:0.036494,63:0.03428):0.02533,64:0.038418):0.018055):0.01818,65:0.019415):0.096639,(((66:0.03928,67:0.047472):0.094415,68:0.082839):0.081648,((69:0.009891,70:0.028255):0.026323,71:0.018601):0.004431):0.033795):0.012647,72:0.090054):0.026682,73:0.053633):0.037362,74:0.079068):0.028356,75:0.072708):0.072231,76:0.089575):0.012362):0.034944,(77:0.104144,(78:0.175589,79:0.103673):0.024988):0.004975):0.021673,80:0.067475):0.013036):0.090246,((((((81:0.050021,((82:0.017549,83:0.012068):0.039751,(84:0.000002,(85:0.000002,86:0.000002):0.000002):0.028236):0.006518):0.023095,87:0.03195):0.03037,(88:0.072847,89:0.054373):0.091064):0.019784,((((90:0.030208,91:0.014017):0.026273,(92:0.014239,93:0.006062):0.056982):0.196022,94:0.289505):0.040261,95:0.116747):0.011247):0.023745,(((96:0.017281,97:0.010244):0.088257,98:0.066571):0.04079,99:0.100595):0.028701):0.064115,100:0.153286):0.068999):0.04374,((((((101:0.034104,102:0.122284):0.06001,103:0.156663):0.042646,(104:0.166705,105:0.126019):0.035233):0.014346,106:0.097221):0.018445,(107:0.20666,108:0.100138):0.022213):0.037379,((109:0.156285,(110:0.024597,111:0.062946):0.081792):0.226268,112:0.16852):0.047071):0.015686):0.033438,(((113:0.002727,114:0.005782):0.373675,115:0.221927):0.072703,((116:0.021763,(117:0.0452,(118:0.004165,119:0.004026):0.014477):0.015494):0.079153,120:0.10206):0.281667):0.030169):0.005601,((121:0.267258,122:0.171295):0.261111,123:0.27753):0.080269):0.017789,(124:0.044584,(((125:0.023674,126:0.018622):0.061122,127:0.062613):0.035699,(128:0.082658,((129:0.00913,130:0.005493):0.079765,131:0.088262):0.027194):0.016283):0.09109):0.147364):0.024357):0.026897):0.085951):0.056825):0.085504):0.294321,(((((132:0.049422,133:0.040359):0.013514,(134:0.056045,135:0.032467):0.016617):0.015446,(136:0.055532,137:0.027931):0.145426):0.035212,(138:0.070048,(139:0.006563,140:0.005717):0.062293):0.062611):0.073761,((((141:0.118355,(142:0.439665,143:0.086183):0.026429):0.013714,((((144:0.104967,145:0.118502):0.036787,146:0.060815):0.247148,(147:0.051179,148:0.061754):0.195694):0.074376,149:0.156835):0.067489):0.039432,150:0.135568):0.03506,151:0.29042):0.023853):0.294321);
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1754628516635;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 1015844387617210490;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 100;
+			setPopoutState 300;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 700 464;
+			setLocation 8 25;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #1015844387617210490 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #1015844387617210490;
+				getWindow;
+				tell It;
+					useTargetValue off;
+					setTargetValue ;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 600 392;
+					setLocation 8 25;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #1015844387617210490  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					setTreeBlockID 0198880226be1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1160.1754628505263.6137642585773942765;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 600 392;
+					setLocation 8 25;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareLineTree.SquareLineTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle off;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+							setFixedTaxonDistance 0;
+						endTell;
+						setEdgeWidth 4;
+						showEdgeLines on;
+						orientRight;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					setSelectedTaxonHighlightMode 1;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						setTaxonNameStyler  #mesquite.trees.NoColorForTaxon.NoColorForTaxon;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					togglePrintName off;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					toggleShow consensusFrequency;
+					toggleShow bootstrapFrequency;
+					toggleShow posteriorProbability;
+					toggleShow consensusFrequency;
+					toggleShow posteriorProbability;
+					toggleShow bootstrapFrequency;
+					setDigits 4;
+					setThreshold ?;
+					writeAsPercentage off;
+					toggleCentred off;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					toggleShowOnTerminals on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+					toggleShowOnTerminals on;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+
