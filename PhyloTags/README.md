@@ -44,8 +44,7 @@ Results/ → All generated output files will be saved here.
 
 ## How to Run
 
-The first step is move tour tree in nexus format to the data directory. After that move to the bin directory and from here run
-the script as follow:
+The first step is move tour tree in nexus format to the data directory. After that change your working directory to the bin directory and run this script as follows:
 
 PhyloTags.sh name_of_your_tree.nex
 
