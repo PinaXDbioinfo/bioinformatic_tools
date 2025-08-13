@@ -12,6 +12,8 @@ A filtered dataset containing only species present in the tree.
 This tool is especially useful for preparing input files for phylogenetic programs that require a perfect match between the species 
 in the tree and the dataset (e.g., BayesTraits).
 
+## Input files
+
 To run the script you only need two files:
 1. **A Nexus tree** with a taxa block.
 2. **A tab-delimited `.txt` file** with:
@@ -21,10 +23,11 @@ To run the script you only need two files:
 
 You can find example files in the directory example data
 
-## Requirements
+## Necessary programs and libraries
 - R (>= 4.0)
 - Packages:
   - ape
+  
 ---
 
 ## How to Run
