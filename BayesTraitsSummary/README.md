@@ -15,7 +15,7 @@ Harmonic and arithmetic means of the reconstructed trait
 Mode of the posterior distribution
 A trace plot
 
-## Requirements
+## Input files
 
 You only need:
 Log files from an ancestral quantitative trait reconstruction in BayesTraits.
@@ -32,10 +32,10 @@ Posterior distribution
 Traceplot
 ![Example](Example_output_traceplot.png)
 
-## Requirements
+## Necessary programs and libraries
 
 - R (>= 4.0)
-- Packages:
+- Packages from R:
   - HDInterval
   - coda
   - posterior
