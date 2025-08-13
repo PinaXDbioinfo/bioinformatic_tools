@@ -24,7 +24,7 @@ Example files can be found in the data directory.
 
 ---
 
-## Example Image
+## Example output
 
 Posterior distribution
 ![Example](Example_output_distribution.png)
