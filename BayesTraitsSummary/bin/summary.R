@@ -67,8 +67,8 @@ library(posterior)
   abline(v = armonic,col = "slateblue4",lwd = 3,lty = 2)
   abline(v = modaRec, col = "purple",lwd = 3,lty = 2)
   legend("topright",legend = c(paste0("arithmetic mean: ",round(mean(tempdata),digits = 2)),
-                               "harmonic mean: ",round(armonic,digits = 2),
-                               "mode: ",round(modaRec,digits = 2)), 
+                               paste0("harmonic mean: ",round(armonic,digits = 2)),
+                               paste0("mode: ",round(modaRec,digits = 2))), 
          col = c("slategray","slateblue4","purple"), cex = 0.85,pch = 16,bty ="o",y.intersp = 0.7,
          box.lwd = 0.5)
   axis(1, at = round(seq(min(tempdata), max(tempdata), by = max(tempdata)/15),digits = 2),
