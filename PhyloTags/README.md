@@ -33,9 +33,9 @@ Results/ → All generated output files will be saved here(this directory will b
 
 ---
 
-## Requirements
+## Necessary programs and libraries
 - R (>= 4.0)
-- Packages:
+- Packages from R:
   - ape
 ---
 
