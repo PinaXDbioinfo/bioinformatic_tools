@@ -4,6 +4,8 @@
 This tool generates an image of a phylogenetic tree and, next to each taxon, displays the value of a quantitative trait.  
 The value is shown both as a number and as a color-coded circle, where the gradient intensity represents the magnitude of the trait.
 
+## Input files
+
 To run the script you only need two files:
 1. **A Nexus tree** with a taxa block.
 2. **A tab-delimited `.txt` file** with:
@@ -12,6 +14,7 @@ To run the script you only need two files:
    - No column names (headerless file).
 
 You can find example files for try it use the code c:
+
 ---
 
 ## Example Image
@@ -19,9 +22,9 @@ You can find example files for try it use the code c:
 
 ---
 
-## Requirements
+## Necessary programs and libraries
 - R (>= 4.0)
-- Packages:
+- Packages from R:
   - ape
   - colorspace
 
