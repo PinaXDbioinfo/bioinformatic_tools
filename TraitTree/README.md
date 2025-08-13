@@ -17,7 +17,7 @@ You can find example files for try it use the code c:
 
 ---
 
-## Example Image
+## Example outputs
 ![Example](example_plot.png)
 
 ---
