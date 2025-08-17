@@ -4,9 +4,7 @@
 
 ScriptsBayesTraits is a tool designed to simplify the creation of BayesTraits scripts for ancestral state reconstruction of 
 quantitative traits. Its key feature is the ability to define uniform priors objectively, based on maximum likelihood estimations, 
-rather than setting them arbitrarily. Additionally, the program generates scripts for each internal node of the phylogenetic tree, 
-making it easier to select which nodes you want to reconstruct. This avoids the tedious process in BayesTraits where you must 
-manually specify the descendants of a node to perform inference.
+rather than setting them arbitrarily.
 
 Working with BayesTraits can be powerful, but let’s be honest—it often feels tedious when it comes to setting up scripts, defining priors, and specifying which internal nodes to reconstruct. ScriptsBayesTraits automates all of that for you.
 This tool doesn’t just generate BayesTraits scripts—it does the heavy thinking beforehand:
@@ -108,6 +106,6 @@ The first step is move your tree in nexus format and your trait data to the data
 
 Example of how to run:
 
-./ScriptsBayesTraits.sh tree.nex data.txt 1000000 1000 10 4 3
+  ./ScriptsBayesTraits.sh tree.nex data.txt 1000000 1000 10 4 3
 
 Author: José Emilio Ramírez Piña
