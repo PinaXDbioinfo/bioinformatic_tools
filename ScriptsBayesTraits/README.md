@@ -1,4 +1,4 @@
-# ScriptsBayesTraits. Automatic script generator for ancestral state reconstruction of quantitative trates for BayesTraits
+# ScriptsBayesTraits. Automatic script generator for ancestral state reconstruction of quantitative traits for BayesTraits
 
 ## Description
 
@@ -83,8 +83,18 @@ Example of the csv that contains the results of the ancestral trait reconstructi
 
 ## How to Run
 
-The first step is move your tree in nexus format and your trait data to the data directory. After that change your working directory to the bin directory and run this script as follows:
+The first step is move your tree in nexus format and your trait data to the data directory. After that change your working directory to the bin directory and run this script as follows with this arguments in this order:
 
-PhyloTags.sh name_of_your_tree.nex
+1-Name of your tree
+2-Name of your data trait
+3-Number of iterations that you want
+4-The frequency of the sample the MCMC (between 0-iterations number)
+5-Percentage of burnin (between 1-98)
+6-Evolutionary model (4 for wandom-walk or 5 for directional)
+7–The divisor applied to the standard error (must be >1). This reduces the standard error, resulting in a narrower range for the uniform prior, if desired.
+
+Example of how to run:
+
+./ScriptsBayesTraits.sh tree.nex data.txt 1000000 1000 10 4 3
 
 Author: José Emilio Ramírez Piña
