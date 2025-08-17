@@ -58,13 +58,21 @@ Node2 Treponema_pallidum Chlamydia_pneumonia Lactobacillus_plantarum Prochloroco
 Example of a bayestraits script for the ancestral trait reconstruction of the node 2
 
 4
+
 2
+
 PriorAll uniform -9.78831256806593333333 41.91614446778653333333
+
 Iterations 100000000
+
 Burnin 50000000
+
 Sample 1000
+
 AddTag Node2 Treponema_pallidum Chlamydia_pneumonia Lactobacillus_plantarum Prochlorococcus_marinus Synechococcus_sp Anabaena_variabilis Nostoc_sp Campylobacter_jejuni Buchnera_aphidicola_1 Erwinia_carotovora Mannheimia_succiniciproducens Aeromonas_hydrophila Methylococcus_capsulatus Legionella_pneumophila Dinoroseobacter_shibae Bartonella_henselae Brucella_melitensis Bradyrhizobium_japonicum Geobacter_sulfurreducens Rubrobacter_xylanophilus Arthrobacter_aurescens Mycobacterium_leprae Mycobacterium_avium Gramella_forsetii Porphyromonas_gingivalis Ehrlichia_canis Anaplasma_marginale Rickettsia_conorii
+
 AddMRCA trait Node2
+
 Run
 
 Example of the csv that contains the results of the ancestral trait reconstruction of node 2 by maximun likehood
