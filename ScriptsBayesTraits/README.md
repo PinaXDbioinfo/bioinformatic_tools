@@ -97,11 +97,17 @@ Example of the csv that contains the results of the ancestral trait reconstructi
 The first step is move your tree in nexus format and your trait data to the data directory. After that change your working directory to the bin directory and run this script as follows with this arguments in this order:
 
 1-Name of your tree
+
 2-Name of your data trait
+
 3-Number of iterations that you want
+
 4-The frequency of the sample the MCMC (between 0-iterations number)
+
 5-Percentage of burnin (between 1-98)
+
 6-Evolutionary model (4 for wandom-walk or 5 for directional)
+
 7–The divisor applied to the standard error (must be >1). This reduces the standard error, resulting in a narrower range for the uniform prior, if desired.
 
 Example of how to run:
