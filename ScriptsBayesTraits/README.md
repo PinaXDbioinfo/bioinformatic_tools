@@ -8,13 +8,29 @@ rather than setting them arbitrarily. Additionally, the program generates script
 making it easier to select which nodes you want to reconstruct. This avoids the tedious process in BayesTraits where you must 
 manually specify the descendants of a node to perform inference.
 
-This tool is especially useful for:
+Working with BayesTraits can be powerful, but let’s be honest—it often feels tedious when it comes to setting up scripts, defining priors, and specifying which internal nodes to reconstruct. ScriptsBayesTraits automates all of that for you.
+This tool doesn’t just generate BayesTraits scripts—it does the heavy thinking beforehand:
 
-Preparing labeled trees for downstream analyses.
-Identifying clades or subtrees based on node descendants.
-Enabling customized node tracking or trait aggregation at internal nodes.
-Teaching or visualizing evolutionary relationships with labeled nodes.
-Write the taggs for analyses in BayesTraits
+Objective priors: Instead of arbitrary ranges, ScriptsBayesTraits estimates ancestral values via Maximum Likelihood and uses them to define a uniform prior with a data-driven lower and upper bound.
+Node-focused workflow: It automatically detects descendants for every internal node in your tree, exports a labeled PNG (so you can see where to work), and creates organized directories for each node.
+Streamlined outputs: For every node, you get a clean CSV file with ancestral estimates, confidence intervals, min/max descendant values, and standard errors.
+Plug-and-play scripts: Finally, it writes fully functional BayesTraits scripts that include everything—evolutionary model, priors, MCMC parameters, burn-in, sampling frequency, and the exact descendant tags you need.
+
+In short, ScriptsBayesTraits transforms the frustrating, error-prone setup process into a clear, automated, and reproducible workflow. You stay focused on the science—while the tool takes care of the setup.
+
+## Summary of the tool work-flow
+
+The tool first identifies the descendants of each internal node in the phylogenetic tree and exports the tree as a PNG image (useful for locating the internal nodes you want to reconstruct). Then, it creates a directory for each internal node, which will contain the corresponding output files. Next, it performs ancestral state reconstruction of the trait using maximum likelihood. For each ancestral node, it generates a CSV file that includes the estimated value, confidence interval, minimum and maximum values of its descendants, and the standard error. Based on this information, the tool determines the priors: by default, it sets a uniform prior where the lower bound is calculated as the ancestral value minus the standard error, divided by a user-defined factor. It also adjusts the number of iterations according to the user-specified percentage of burn-in. Finally, with all this information, the tool writes the BayesTraits script, specifying the evolutionary model, method, priors, iterations, burn-in, sampling frequency, and the tags that indicate the descendants of each node.
+
+After run this script generates:
+
+A tree with labeled nodes in newick format and an png of the tree
+A directory for each internal node that contain:
+  
+  -A Bayes traits script to perform ancestral character reconstruction by Bayesian inference for the corresponding node
+  -A txt file that indicates the descendants for the corresponding node
+  -A csv file with the results of the ancestral state reconstruction of the trait by maximun likehood for the corresponding node
+
 
 ## Input files
 
@@ -31,10 +47,29 @@ Results/ → All generated output files will be saved here(this directory will b
 
 ## Output example 
 
-![Example](example_plot.png)
+Labeled tree
 
-#example of a .txt file that containt the descendants of Node 13
-[`Node13.txt`]
+![Example](Example_outputs_Results/labeled_tree.png)
+
+Example of a .txt file that containt the descendants of Node 2
+
+Node2 Treponema_pallidum Chlamydia_pneumonia Lactobacillus_plantarum Prochlorococcus_marinus Synechococcus_sp Anabaena_variabilis Nostoc_sp Campylobacter_jejuni Buchnera_aphidicola_1 Erwinia_carotovora Mannheimia_succiniciproducens Aeromonas_hydrophila Methylococcus_capsulatus Legionella_pneumophila Dinoroseobacter_shibae Bartonella_henselae Brucella_melitensis Bradyrhizobium_japonicum Geobacter_sulfurreducens Rubrobacter_xylanophilus Arthrobacter_aurescens Mycobacterium_leprae Mycobacterium_avium Gramella_forsetii Porphyromonas_gingivalis Ehrlichia_canis Anaplasma_marginale Rickettsia_conorii
+
+Example of a bayestraits script for the ancestral trait reconstruction of the node 2
+
+4
+2
+PriorAll uniform -9.78831256806593333333 41.91614446778653333333
+Iterations 100000000
+Burnin 50000000
+Sample 1000
+AddTag Node2 Treponema_pallidum Chlamydia_pneumonia Lactobacillus_plantarum Prochlorococcus_marinus Synechococcus_sp Anabaena_variabilis Nostoc_sp Campylobacter_jejuni Buchnera_aphidicola_1 Erwinia_carotovora Mannheimia_succiniciproducens Aeromonas_hydrophila Methylococcus_capsulatus Legionella_pneumophila Dinoroseobacter_shibae Bartonella_henselae Brucella_melitensis Bradyrhizobium_japonicum Geobacter_sulfurreducens Rubrobacter_xylanophilus Arthrobacter_aurescens Mycobacterium_leprae Mycobacterium_avium Gramella_forsetii Porphyromonas_gingivalis Ehrlichia_canis Anaplasma_marginale Rickettsia_conorii
+AddMRCA trait Node2
+Run
+
+Example of the csv that contains the results of the ancestral trait reconstruction of node 2 by maximun likehood
+
+![exampleCSV](Example_outputs_Results/Descendants/Example_Node2/exampleCSV.png)
 
 ---
 
@@ -43,11 +78,12 @@ Results/ → All generated output files will be saved here(this directory will b
 - Packages from R:
   - ape
   - diversitree
+
 ---
 
 ## How to Run
 
-The first step is move your tree in nexus format to the data directory. After that change your working directory to the bin directory and run this script as follows:
+The first step is move your tree in nexus format and your trait data to the data directory. After that change your working directory to the bin directory and run this script as follows:
 
 PhyloTags.sh name_of_your_tree.nex
 
