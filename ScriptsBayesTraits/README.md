@@ -12,8 +12,11 @@ Working with BayesTraits can be powerful, but let’s be honest—it often feels
 This tool doesn’t just generate BayesTraits scripts—it does the heavy thinking beforehand:
 
 Objective priors: Instead of arbitrary ranges, ScriptsBayesTraits estimates ancestral values via Maximum Likelihood and uses them to define a uniform prior with a data-driven lower and upper bound.
+
 Node-focused workflow: It automatically detects descendants for every internal node in your tree, exports a labeled PNG (so you can see where to work), and creates organized directories for each node.
+
 Streamlined outputs: For every node, you get a clean CSV file with ancestral estimates, confidence intervals, min/max descendant values, and standard errors.
+
 Plug-and-play scripts: Finally, it writes fully functional BayesTraits scripts that include everything—evolutionary model, priors, MCMC parameters, burn-in, sampling frequency, and the exact descendant tags you need.
 
 In short, ScriptsBayesTraits transforms the frustrating, error-prone setup process into a clear, automated, and reproducible workflow. You stay focused on the science—while the tool takes care of the setup.
@@ -40,7 +43,9 @@ A tab-separated file containing the quantitative trait data without header
 Example file are available in the data directory
 
 bin/ → Contains the scripts needed to run PhyloTags.
+
 data/ → Place your input tree file here.
+
 Results/ → All generated output files will be saved here(this directory will be generated after run the script)
 
 ---
