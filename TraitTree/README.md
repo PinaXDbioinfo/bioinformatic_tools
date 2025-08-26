@@ -37,6 +37,7 @@ You can find example files for try it use the code c:
 Rscript TraitTree_script.R tree.nex data.txt
 
 tree.nex → Phylogenetic tree in Nexus format.
+
 data.txt → Tab-delimited file with numeric trait values for each species.
 
 ### **From R**
@@ -47,6 +48,7 @@ Before using the function, load your data:
 library(ape)
 
 tree <- read.nexus("tree.nex")
+
 data <- read.csv("data.txt", sep = "\t", header = FALSE)
 
 Then call the function:
